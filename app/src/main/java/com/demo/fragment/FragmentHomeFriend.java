@@ -10,13 +10,23 @@ import com.demo.home.R;
 
 @SuppressLint("NewApi")
 public class FragmentHomeFriend extends Fragment {
+//    @Nullable
+//    @Override
+//    public View onCreateView(@NonNull LayoutInflater inflater,
+//                             @Nullable ViewGroup container,
+//                             @Nullable Bundle savedInstanceState) {
+//        View view = inflater.inflate(R.layout.home_friend,container,false);
+//        return view;
+//    }
+
     @SuppressLint("NewApi")
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view=inflater.inflate(R.layout.home_friend,null);//从布局文件message_fragment.xml加载一个布局
+        View view=inflater.inflate(R.layout.home_friend,null);
         return view;
     }
 }
+
 
 
 

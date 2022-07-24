@@ -1,19 +1,31 @@
 package com.demo.fragment;
 
+
 import android.annotation.SuppressLint;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import com.demo.home.R;
 
 @SuppressLint("NewApi")
 public class FragmentHomeMe extends Fragment {
+//    @Nullable
+//    @Override
+//    public View onCreateView(@NonNull LayoutInflater inflater,
+//                             @Nullable ViewGroup container,
+//                             @Nullable Bundle savedInstanceState) {
+//
+//        View view = inflater.inflate(R.layout.home_me, container, false);
+//        return view;
+//    }
+
     @SuppressLint("NewApi")
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view=inflater.inflate(R.layout.home_me,null);//从布局文件message_fragment.xml加载一个布局
+        View view=inflater.inflate(R.layout.home_me,null);
         return view;
     }
 }
