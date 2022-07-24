@@ -17,7 +17,7 @@
     <style name="item_txt">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
-        <item name="android:textSize">16dp</item>
+        <item name="android:textSize">20dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:gravity">center</item>
         <item name="android:textStyle">bold</item>
@@ -33,11 +33,28 @@
         <item name="android:textColor">#FFFFFF</item>
     </style>
 
+    <style name="item_home_news_top_txt">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">23dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
     <style name="image_home_top">
         <item name="android:layout_width">50dp</item>
         <item name="android:layout_height">50dp</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:backgroundTint">#FFFFFF</item>
+
+    </style>
+
+    <style name="image_home_news_top">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:backgroundTint">#000000</item>
 
     </style>
 

@@ -1,12 +1,15 @@
 package com.demo.util;
 
+import android.annotation.SuppressLint;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.TextView;
 
 /**
- * 文字动画效果
+ * 文字工具类
  */
-public class TextAnimation {
+public class Text {
 
     /**
      * 添加点击缩放效果
@@ -14,6 +17,7 @@ public class TextAnimation {
      * @param scale    缩放比例  默认0.9f
      * @param duration 动画时长  默认150
      */
+    @SuppressLint("ClickableViewAccessibility")
     private static void addClickScale(View view, Float scale, Integer duration) {
         if (view != null) {
             view.setOnTouchListener((v, event) -> {
@@ -36,5 +40,10 @@ public class TextAnimation {
         for(View i : v) {
             addClickScale(i, 0.9f, 150);
         }
+    }
+
+    //给文字设置指定颜色
+    public static void setTextColor(Integer s, TextView... tv) {
+        for (TextView i : tv) i.setTextColor(s);
     }
 }

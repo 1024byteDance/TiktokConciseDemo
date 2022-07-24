@@ -2,11 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginBottom="50dp">
+    android:background="#FFFFFF">
 
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#12fda2" />
+        android:background="#FFFFFF" />
 
 </LinearLayout>

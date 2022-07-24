@@ -26,7 +26,7 @@
             <FrameLayout style="@style/layout_width">
 
                 <TextView
-                    android:id="@+id/home_text1"
+                    android:id="@+id/home_botton_home"
                     style="@style/item_txt"
                     android:text="@string/_000001" />
 
@@ -35,7 +35,7 @@
             <FrameLayout style="@style/layout_width">
 
                 <TextView
-                    android:id="@+id/home_text2"
+                    android:id="@+id/home_botton_friend"
                     style="@style/item_txt"
                     android:text="@string/_000002" />
 
@@ -46,7 +46,7 @@
                 android:gravity="center">
 
                 <ImageView
-                    android:id="@+id/home_image"
+                    android:id="@+id/home_botton_image"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -58,7 +58,7 @@
             <FrameLayout style="@style/layout_width">
 
                 <TextView
-                    android:id="@+id/home_text3"
+                    android:id="@+id/home_botton_news"
                     style="@style/item_txt"
                     android:text="@string/_000003" />
 
@@ -67,7 +67,7 @@
             <FrameLayout style="@style/layout_width">
 
                 <TextView
-                    android:id="@+id/home_text4"
+                    android:id="@+id/home_botton_me"
                     style="@style/item_txt"
                     android:text="@string/_000004" />
 
