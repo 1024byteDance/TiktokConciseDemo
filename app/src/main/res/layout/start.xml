@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/layout_height" />
+
+    <LinearLayout style="@style/layout_height">
+
+        <LinearLayout style="@style/layout_width" />
+
+        <LinearLayout style="@style/layout_width">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/gix" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/layout_width" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/layout_height" />
+
+    <LinearLayout style="@style/layout_height" />
+
+
+</LinearLayout>

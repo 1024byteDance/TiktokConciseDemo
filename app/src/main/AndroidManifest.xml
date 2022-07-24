@@ -18,7 +18,7 @@
         <meta-data
             android:name="android.max_aspect"
             android:value="ratio_float"/>
-
+        
         <activity
             android:name="com.demo.MainActivity"
             android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"

@@ -1,16 +1,11 @@
 package com.demo.click;
 
-import android.annotation.SuppressLint;
-import android.app.Fragment;
-
 import android.app.Activity;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
+import android.app.Fragment;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.demo.MainActivity;
 import com.demo.fragment.FragmentHome;
@@ -18,7 +13,6 @@ import com.demo.fragment.FragmentHomeFriend;
 import com.demo.fragment.FragmentHomeMe;
 import com.demo.fragment.FragmentHomeNews;
 import com.demo.home.R;
-import com.demo.util.ActivityObtain;
 import com.demo.util.FragmentUtil;
 import com.demo.util.TextAnimation;
 

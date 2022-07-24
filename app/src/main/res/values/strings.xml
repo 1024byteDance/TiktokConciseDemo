@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="_000001">首页</string>
+    <string name="_000002">朋友</string>
+    <string name="_000003">消息</string>
+    <string name="_000004">我</string>
+    <string name="_000005">关注</string>
+    <string name="_000006">推荐</string>
+
 </resources>

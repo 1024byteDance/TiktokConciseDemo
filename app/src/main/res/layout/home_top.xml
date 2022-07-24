@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout style="@style/layout_width">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout style="@style/layout_width">
+
+                <Button
+                    style="@style/image_home_top"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@mipmap/fz" />
+
+            </FrameLayout>
+
+            <FrameLayout style="@style/layout_width">
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout style="@style/layout_width">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout style="@style/layout_width">
+
+                <TextView
+                    style="@style/item_home_top_txt"
+                    android:text="@string/_000005" />
+
+            </FrameLayout>
+
+
+            <FrameLayout
+
+                style="@style/layout_width">
+
+                <TextView
+                    style="@style/item_home_top_txt"
+                    android:text="@string/_000006">
+
+                </TextView>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <FrameLayout style="@style/layout_width">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout style="@style/layout_width" />
+
+            <FrameLayout style="@style/layout_width">
+
+                <Button
+                    style="@style/image_home_top"
+                    android:background="@mipmap/g2s">
+
+                </Button>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

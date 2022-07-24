@@ -7,6 +7,6 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#12fda2"/>
+        android:background="#12fda2" />
 
 </LinearLayout>

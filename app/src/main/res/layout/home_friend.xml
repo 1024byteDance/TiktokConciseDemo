@@ -2,12 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:layout_marginBottom="50dp">
+    android:layout_marginBottom="50dp"
+    android:orientation="vertical">
 
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#321456"/>
+        android:background="#321456" />
 
 </LinearLayout>

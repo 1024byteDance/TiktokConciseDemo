@@ -1,84 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/bottom">
+    android:layout_weight="2">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="10dp"
-        android:background="#000000"
-        android:orientation="horizontal">
-
-        <FrameLayout
-            style="@style/layout">
-
-            <TextView
-                style="@style/item_txt"
-                android:id="@+id/home_text1"
-                android:text="首页"/>
-
-        </FrameLayout>
-
-        <FrameLayout
-            style="@style/layout">
-
-            <TextView
-                style="@style/item_txt"
-                android:id="@+id/home_text2"
-                android:text="朋友"/>
-
-        </FrameLayout>
-
-        <RelativeLayout
-            style="@style/layout"
-            android:gravity="center">
-
-            <ImageView
-                android:id="@+id/home_image"
-                android:layout_width="45dp"
-                android:layout_height="35dp"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:background="@mipmap/icon_follow_black_nor" />
-
-        </RelativeLayout>
-
-        <FrameLayout
-            style="@style/layout">
-
-            <TextView
-                style="@style/item_txt"
-                android:id="@+id/home_text3"
-                android:text="消息"/>
-
-        </FrameLayout>
-
-        <FrameLayout
-            style="@style/layout">
-
-            <TextView
-                style="@style/item_txt"
-                android:id="@+id/home_text4"
-                android:text="我" />
-
-        </FrameLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/recLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="bottom"
         android:orientation="vertical">
 
         <View
-            android:layout_width="wrap_content"
-            android:layout_height="10dp"
-            android:background="#000000"></View>
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="100">
 
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="10">
+
+            <FrameLayout style="@style/layout_width">
+
+                <TextView
+                    android:id="@+id/home_text1"
+                    style="@style/item_txt"
+                    android:text="@string/_000001" />
+
+            </FrameLayout>
+
+            <FrameLayout style="@style/layout_width">
+
+                <TextView
+                    android:id="@+id/home_text2"
+                    style="@style/item_txt"
+                    android:text="@string/_000002" />
+
+            </FrameLayout>
+
+            <RelativeLayout
+                style="@style/layout_width"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/home_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@mipmap/g2i"
+                    android:gravity="center" />
+
+            </RelativeLayout>
+
+            <FrameLayout style="@style/layout_width">
+
+                <TextView
+                    android:id="@+id/home_text3"
+                    style="@style/item_txt"
+                    android:text="@string/_000003" />
+
+            </FrameLayout>
+
+            <FrameLayout style="@style/layout_width">
+
+                <TextView
+                    android:id="@+id/home_text4"
+                    style="@style/item_txt"
+                    android:text="@string/_000004" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/recLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"></View>
+
+        </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
